@@ -11,7 +11,7 @@ lines = []
 for line in f:
     for i in range(0, len(line)-1):
         countOnes[i] = countOnes[i]+1 if line[i]=="1" else countOnes[i]
-    lines.append(line)
+    lines.append(line.strip())
 
 gamma = 0
 epsilon = 0
@@ -25,7 +25,7 @@ for i in range(0, LENGTH_INPUT_LINE):
         epsilon += pow(2, bit)
     bit -= 1
     
-print("Part 2")
+print("Part 1")
 print("Epsilon:", epsilon," Gamma:", gamma," Value:", epsilon*gamma)
 #total O(n)
 
