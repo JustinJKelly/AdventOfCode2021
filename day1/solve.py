@@ -12,7 +12,7 @@ for line in f:
         
     prev = v
     
-print("Part 1: ", count_part1-1)
+print("Part 1\ncount:", count_part1-1)
 
 #Part 2
 f = open('input.txt')
@@ -51,6 +51,7 @@ for line in f:
             v3 = 0
     
     i += 1
-    
-print("Part 2: ", count_part2)
+
+print("===============================")
+print("Part 2:\ncount: ", count_part2)
     
