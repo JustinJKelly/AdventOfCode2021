@@ -42,9 +42,6 @@ for line in f:
              boards.append(board)
              board = []
         
-#print("Numbers:", chosen_numbers)
-#for b in boards:
-#    print(b, "\n")
 min_numbers_so_far = float('inf')
 best_board = []
 board_status = []

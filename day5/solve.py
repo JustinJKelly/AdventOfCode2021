@@ -1,7 +1,3 @@
-
-from numpy import diagonal
-
-
 f = open('input.txt')
 m = float('-inf')
 vent_locations = []
