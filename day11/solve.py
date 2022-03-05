@@ -7,14 +7,6 @@ for line in f:
     l = [int(c) for c in l]
     input.append(l)
     
-'''for i in range(0,len(input)):
-    for j in range(0,len(input[i])):
-        if input[i][j] < 0:
-            input[i][j] = 0
-    print(input[i])  
-    
-print('\n\n') '''
-    
 first_step_all_flash = 0
 for k in range(0,1000):
     
