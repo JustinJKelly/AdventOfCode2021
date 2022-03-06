@@ -6,7 +6,7 @@ touch "day${day}"/spec_part1.txt "day${day}"/spec_part2.txt "day${day}"/testinpu
 echo "f = open('input.txt')
 
 for line in f:
-    print(line)
+    print(line.strip())
     
 
 print('Part 1')
